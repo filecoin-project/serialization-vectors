@@ -1,282 +1,276 @@
 [
   {
     "block": {
-      "Miner": "t00",
-      "Ticket": {
-        "VRFProof": "Ynl0ZSBhcnJheQ=="
-      },
-      "ElectionProof": null,
-      "BeaconEntries": null,
-      "WinPoStProof": null,
-      "Parents": null,
-      "ParentWeight": "0",
-      "Height": 0,
-      "ParentStateRoot": {
-        "/": "bafy2bzacea3wsdh6y3a36tb3skempjoxqpuyompjbmfeyf34fi3uy6uue42v4"
-      },
-      "ParentMessageReceipts": {
-        "/": "bafy2bzacea3wsdh6y3a36tb3skempjoxqpuyompjbmfeyf34fi3uy6uue42v4"
-      },
-      "Messages": {
-        "/": "bafy2bzacea3wsdh6y3a36tb3skempjoxqpuyompjbmfeyf34fi3uy6uue42v4"
-      },
-      "BLSAggregate": null,
-      "Timestamp": 0,
-      "BlockSig": {
-        "Type": 2,
-        "Data": "Ynl0ZSBhcnJheQ=="
-      },
-      "ForkSignaling": 0
-    },
-    "cbor_hex": "8f420000814a62797465206172726179f68080804000d82a5827000171a0e4022037690cfec6c1bf4c3b9288c7a5d783e98731e90b0a4c177c2a374c7a9427355ed82a5827000171a0e4022037690cfec6c1bf4c3b9288c7a5d783e98731e90b0a4c177c2a374c7a9427355ed82a5827000171a0e4022037690cfec6c1bf4c3b9288c7a5d783e98731e90b0a4c177c2a374c7a9427355ef6004b026279746520617272617900",
-    "cid": "bafy2bzaceapplaykkyswfoxz4hv2qnio7fxertxqhar3lr6q5nrjilsmenntk"
-  },
-  {
-    "block": {
-      "Miner": "t01234",
-      "Ticket": {
-        "VRFProof": "Ynl0ZSBhcnJheQ=="
-      },
-      "ElectionProof": {
-        "VRFProof": "Ynl0ZSBhcnJheQ=="
-      },
-      "BeaconEntries": [],
-      "WinPoStProof": [],
-      "Parents": [],
-      "ParentWeight": "0",
-      "Height": 0,
-      "ParentStateRoot": {
-        "/": "bafy2bzacea3wsdh6y3a36tb3skempjoxqpuyompjbmfeyf34fi3uy6uue42v4"
-      },
-      "ParentMessageReceipts": {
-        "/": "bafy2bzacea3wsdh6y3a36tb3skempjoxqpuyompjbmfeyf34fi3uy6uue42v4"
-      },
-      "Messages": {
-        "/": "bafy2bzacea3wsdh6y3a36tb3skempjoxqpuyompjbmfeyf34fi3uy6uue42v4"
-      },
-      "BLSAggregate": {
-        "Type": 2,
-        "Data": "Ynl0ZSBhcnJheQ=="
-      },
-      "Timestamp": 42,
-      "BlockSig": {
-        "Type": 2,
-        "Data": "Ynl0ZSBhcnJheQ=="
-      },
-      "ForkSignaling": 42
-    },
-    "cbor_hex": "8f4300d209814a62797465206172726179814a627974652061727261798080804000d82a5827000171a0e4022037690cfec6c1bf4c3b9288c7a5d783e98731e90b0a4c177c2a374c7a9427355ed82a5827000171a0e4022037690cfec6c1bf4c3b9288c7a5d783e98731e90b0a4c177c2a374c7a9427355ed82a5827000171a0e4022037690cfec6c1bf4c3b9288c7a5d783e98731e90b0a4c177c2a374c7a9427355e4b0262797465206172726179182a4b0262797465206172726179182a",
-    "cid": "bafy2bzacednpi2maf7mgfmq4j3obteluslwor56z2lei7ygerztba7d5itqvi"
-  },
-  {
-    "block": {
       "Miner": "t01000",
       "Ticket": {
-        "VRFProof": "mFI5lBoxWv4ARBTRrXuzzt2Cx3W3koCq0yEsIcZkJLe3h3Ja7PceC+MmBKioMFjTEsE9uLe35qogctSMukv40sD/qZBrq8TG8gYIos+/Q5F1QBNj5243wSjIFwfP8fY2"
+        "VRFProof": "gst0d6gB9VwfLqXl0RZ2Yf7qYKOfaX4Qma8TJoK4HMUEe+rPW26A1fUrn9kDI/uFEKU5ZBbdB2wTyFYZ4XZVhYJ0QFOj+u9nZIKaoCEyoVcadqq9xJimOOoAVNO7V/Qd"
       },
       "ElectionProof": {
-        "VRFProof": "AA=="
+        "WinCount": 1,
+        "VRFProof": "gS0jlsxFks33+Ck3SwH/0DxUaaSwqazFzMZCeXqgpUmLl7KNkIIP7cb3n/CmAF9cFduso7ikVyCvftUwAFVWZyB6DMtQBzzSRRCZWr1MTkXB6eEUkFAYstqUVBkEmZQe"
       },
       "BeaconEntries": [
         {
-          "Round": 8,
-          "Data": "AA=="
+          "Round": 1,
+          "Data": "Et0Kan0OIiqXkm2gOttad2jTHMfFwr1oKOFKfSX6OmA="
         }
       ],
       "WinPoStProof": [
         {
-          "RegisteredProof": 9,
-          "ProofBytes": "dmFsaWQgcHJvb2Y="
-        },
-        {
-          "RegisteredProof": 1,
+          "PoStProof": 0,
           "ProofBytes": "dmFsaWQgcHJvb2Y="
         }
       ],
       "Parents": [
         {
-          "/": "bafy2bzacea3wsdh6y3a36tb3skempjoxqpuyompjbmfeyf34fi3uy6uue42v4"
+          "/": "bafy2bzaceayprgulanz222ihtw6lyww572ntjxhjgimjpbxfbu7limxn4o5jy"
         }
       ],
-      "ParentWeight": "8309",
-      "Height": 8,
+      "ParentWeight": "3840",
+      "Height": 1,
       "ParentStateRoot": {
-        "/": "bafy2bzacea3wsdh6y3a36tb3skempjoxqpuyompjbmfeyf34fi3uy6uue42v4"
+        "/": "bafy2bzacebjchdd5cxaqbqnz5p4esvaycde6hqwyn2bgkewgyqlnemmpzvew2"
       },
       "ParentMessageReceipts": {
-        "/": "bafy2bzacea3wsdh6y3a36tb3skempjoxqpuyompjbmfeyf34fi3uy6uue42v4"
+        "/": "bafy2bzacedswlcz5ddgqnyo3sak3jmhmkxashisnlpq6ujgyhe4mlobzpnhs6"
       },
       "Messages": {
-        "/": "bafy2bzacea3wsdh6y3a36tb3skempjoxqpuyompjbmfeyf34fi3uy6uue42v4"
+        "/": "bafy2bzaceamngujudqycuilynnmfocgjq42wligqprbfehkkv5jnup7w6lsgc"
       },
       "BLSAggregate": {
         "Type": 2,
-        "Data": "Ynl0ZSBhcnJheQ=="
+        "Data": "wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
       },
-      "Timestamp": 85,
+      "Timestamp": 1596740665,
       "BlockSig": {
-        "Type": 1,
-        "Data": "r6h0hic0eGojmHaYcjmHig=="
+        "Type": 2,
+        "Data": "tc1Ick3OD+yHmdd/1sURMnbn9HDIOR+qC1pgM6Pq81fWNXBcNqvhAwnXNZJycoloBRWv2dQkeTukeWsFJoLSGwPFyKN9lIJ/7MWc3FdQ4Zj98g3uAS9NYnxmZRMimKuV"
       },
-      "ForkSignaling": 500
+      "ForkSignaling": 0,
+      "ParentBaseFee": "87500000"
     },
-    "cbor_hex": "8f4300e807815860985239941a315afe004414d1ad7bb3cedd82c775b79280aad3212c21c66424b7b787725aecf71e0be32604a8a83058d312c13db8b7b7e6aa2072d48cba4bf8d2c0ffa9906babc4c6f20608a2cfbf439175401363e76e37c128c81707cff1f63681410081820841008282094b76616c69642070726f6f6682014b76616c69642070726f6f6681d82a5827000171a0e4022037690cfec6c1bf4c3b9288c7a5d783e98731e90b0a4c177c2a374c7a9427355e4300207508d82a5827000171a0e4022037690cfec6c1bf4c3b9288c7a5d783e98731e90b0a4c177c2a374c7a9427355ed82a5827000171a0e4022037690cfec6c1bf4c3b9288c7a5d783e98731e90b0a4c177c2a374c7a9427355ed82a5827000171a0e4022037690cfec6c1bf4c3b9288c7a5d783e98731e90b0a4c177c2a374c7a9427355e4b026279746520617272617918555101afa874862734786a239876987239878a1901f4",
-    "cid": "bafy2bzacecsniq7jg25ry2i4nrbgkxqkqvhjawgtop5ildcvkfeymwj2g6lva"
+    "cbor_hex": "904300e80781586082cb7477a801f55c1f2ea5e5d1167661feea60a39f697e1099af132682b81cc5047beacf5b6e80d5f52b9fd90323fb8510a5396416dd076c13c85619e176558582744053a3faef6764829aa02132a1571a76aabdc498a638ea0054d3bb57f41d82015860812d2396cc4592cdf7f829374b01ffd03c5469a4b0a9acc5ccc642797aa0a5498b97b28d90820fedc6f79ff0a6005f5c15dbaca3b8a45720af7ed53000555667207a0ccb50073cd24510995abd4c4e45c1e9e114905018b2da9454190499941e818201582012dd0a6a7d0e222a97926da03adb5a7768d31cc7c5c2bd6828e14a7d25fa3a608182004b76616c69642070726f6f6681d82a5827000171a0e4022030f89a8b0373ad69079dbcbc5addfe9b34dce932189786e50d3eb432ede3ba9c43000f0001d82a5827000171a0e4022052238c7d15c100c1b9ebf849541810c9e3c2d86e826512c6c416d2318fcd496dd82a5827000171a0e40220e5658b3d18cd06e1db9015b4b0ec55c123a24d5be1ea24d83938c5b8397b4f2fd82a5827000171a0e4022018d351341c302a21786b585708c9873565a0d07c42521d4aaf52da3ff6f2e461586102c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001a5f2c5439586102b5cd48724dce0fec8799d77fd6c5113276e7f470c8391faa0b5a6033a3eaf357d635705c36abe10309d73592727289680515afd9d424793ba4796b052682d21b03c5c8a37d94827fecc59cdc5750e198fdf20dee012f4d627c6665132298ab95004500053724e0",
+    "cid": "bafy2bzacecv2dnse37l6p2xwhqaq63txtme7hc7ajkgawuswyzqftgdmuhrfs"
   },
   {
     "block": {
       "Miner": "t01000",
       "Ticket": {
-        "VRFProof": "mFI5lBoxWv4ARBTRrXuzzt2Cx3W3koCq0yEsIcZkJLe3h3Ja7PceC+MmBKioMFjTEsE9uLe35qogctSMukv40sD/qZBrq8TG8gYIos+/Q5F1QBNj5243wSjIFwfP8fY2"
+        "VRFProof": "ih3wWchhSrxyIyDZOieQyag0IS0N5B7Bqm40ilqYODcY2qG2yaKaOsykOWQqZWQcA5UoLA7mR9fzE5tOxyzOFOxYtZvzwMy2gnVsWSGz4EhvDSAUUm5BnirOAjpOtJAV"
       },
-      "Parents": [
+      "ElectionProof": {
+        "WinCount": 1,
+        "VRFProof": "lhYSAEw+ZaMSCKzBbpezS3VTWDohhvx9WdW9DKWk70IeTywLkx4egVUDurY6PZprFQWuk5D2VOaOJC1PBC42AgoU8RVl1G381XN5iNH67CNKwgPvo1EdtGvKpIjKPBaT"
+      },
+      "BeaconEntries": [
         {
-          "/": "bafy2bzaceaychypnea6bzwv3r34ekzs7ccwsuza3ie4xb5vru7sv7ybiowj3e"
-        },
-        {
-          "/": "bafy2bzaceburnvajqrq3izxuafmpgm23e2jkonmtzl4jvnyv3mbmauszfstfa"
+          "Round": 2,
+          "Data": "/ukFRpIP7JsvSj0iqNOkdpWWfSIvebCm7M42g4NI9/w="
         }
       ],
-      "ParentWeight": "7065",
+      "WinPoStProof": [
+        {
+          "PoStProof": 0,
+          "ProofBytes": "dmFsaWQgcHJvb2Y="
+        }
+      ],
+      "Parents": [
+        {
+          "/": "bafy2bzacecv2dnse37l6p2xwhqaq63txtme7hc7ajkgawuswyzqftgdmuhrfs"
+        },
+        {
+          "/": "bafy2bzacechfuz5wdjjvt6zjv4hk236aev44elfpswpummtsugo2n4akpkqao"
+        }
+      ],
+      "ParentWeight": "8832",
       "Height": 2,
       "ParentStateRoot": {
-        "/": "bafy2bzacea4vuib2pqk47fl2herx3um7wdvmvghhjgdvamcmgd5fv4zq43k36"
+        "/": "bafy2bzacedj53pt45wiqfr47wo26ceybvozn6kiku5oyazx24j6hisncb6vg6"
       },
       "ParentMessageReceipts": {
-        "/": "bafy2bzacebxaj4y5s7swiittq5rnhv7tklzfpm43z5ps27gornuueuqqbxuoy"
+        "/": "bafy2bzaceboit5c6w4w6wjalzhcxyupgk6tgqqo6qeydf4cp67bacomfxw2s4"
       },
       "Messages": {
-        "/": "bafy2bzacecq54nhno5y2rdgtvgysd375sw3274cymg4t266ejllxuckazacaw"
+        "/": "bafy2bzaceb7ji72gpzyxv2flqd6n7mc3w3rrx3nz2nf6ukhzi5mj2my3kb2ga"
       },
       "BLSAggregate": {
         "Type": 2,
         "Data": "wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
       },
-      "Timestamp": 100050,
+      "Timestamp": 1596740695,
       "BlockSig": {
         "Type": 2,
-        "Data": "kpGzm3Vm4OCPt4W3I0PXlhkvDZTXCGVmAga7dNCvE8OGBUZWFhFuEMc6E+lcPbZgFWwA0DfU6dcozsncPWwJBJvZPl9PTtnLBKLge+vE8k1dwx8M3vAVKquTsd6zPYnL"
+        "Data": "sdBOAgrSW2BveaOefJ8iuUGABpKzyWEsgwEfpX7TTZewJ8926ktzi7Z37w78s+qzE5RoDe1it8EECOigGLt6CyYifPP85DJa4nUPo719JCuRo4q6EA+WNWKYB/bpXRJw"
       },
-      "ForkSignaling": 0
+      "ForkSignaling": 0,
+      "ParentBaseFee": "80937500"
     },
-    "cbor_hex": "8f4300e807815860985239941a315afe004414d1ad7bb3cedd82c775b79280aad3212c21c66424b7b787725aecf71e0be32604a8a83058d312c13db8b7b7e6aa2072d48cba4bf8d2c0ffa9906babc4c6f20608a2cfbf439175401363e76e37c128c81707cff1f636f6808082d82a5827000171a0e402203023e1ed203c1cdabb8ef845665f10ad2a641b413970f6b1a7e55fe0287593b2d82a5827000171a0e402206916d4098461b466f40158f3335b2692a73593caf89ab715db02c052592ca65043001b9902d82a5827000171a0e40220395a203a7c15cf957a39237dd19fb0eaca98e7498750304c30fa5af330e6d5bfd82a5827000171a0e402206e04f31d97e56422738762d3d7f352f257b39bcf5f2d7cce8b694252100de8ecd82a5827000171a0e40220a1de34ed7771a88cd3a9b121effd95b7aff05861b93d7bc44ad77a0940c8040b586102c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001a000186d25861029291b39b7566e0e08fb785b72343d796192f0d94d70865660206bb74d0af13c38605465616116e10c73a13e95c3db660156c00d037d4e9d728cec9dc3d6c09049bd93e5f4f4ed9cb04a2e07bebc4f24d5dc31f0cdef0152aab93b1deb33d89cb00",
-    "cid": "bafy2bzacea7kn6r53fc5gpsh5veslgp4sgp7y7za6kouuybcslb2lg7kghprk"
+    "cbor_hex": "904300e8078158608a1df059c8614abc722320d93a2790c9a834212d0de41ec1aa6e348a5a98383718daa1b6c9a29a3acca439642a65641c0395282c0ee647d7f3139b4ec72cce14ec58b59bf3c0ccb682756c5921b3e0486f0d2014526e419e2ace023a4eb4901582015860961612004c3e65a31208acc16e97b34b7553583a2186fc7d59d5bd0ca5a4ef421e4f2c0b931e1e815503bab63a3d9a6b1505ae9390f654e68e242d4f042e36020a14f11565d46dfcd5737988d1faec234ac203efa3511db46bcaa488ca3c16938182025820fee90546920fec9b2f4a3d22a8d3a47695967d222f79b0a6ecce36838348f7fc8182004b76616c69642070726f6f6682d82a5827000171a0e40220aba1b644dfd7e7eaf63c010f6e779b09f38be04a8c0b5256c66059986ca1e259d82a5827000171a0e402208e5a67b61a5359fb29af0ead6fc02579c22caf959f463272a19da6f00a7aa0074300228002d82a5827000171a0e40220d3ddbe7ced9102c79fb3b5e11301abb2df290aa75d8066fae27c7449a20faa6fd82a5827000171a0e402205c89f45eb72deb240bc9c57c51e657a66841de813032f04ff7c2013985bdb52ed82a5827000171a0e402207e947f467e717ae8ab80fcdfb05bb6e31bedb9d34bea28f947589d331b507460586102c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001a5f2c5457586102b1d04e020ad25b606f79a39e7c9f22b941800692b3c9612c83011fa57ed34d97b027cf76ea4b738bb677ef0efcb3eab31394680ded62b7c10408e8a018bb7a0b26227cf3fce4325ae2750fa3bd7d242b91a38aba100f9635629807f6e95d127000450004d3021c",
+    "cid": "bafy2bzacedz3z6yc345weqkzfipzfwfcs5w6eslk34x34vffil2uhvgouybzs"
   },
   {
     "block": {
-      "Miner": "t01000",
+      "Miner": "t01001",
       "Ticket": {
-        "VRFProof": "gEnk7iabKLh1evmdDXxcy19n16QxTWFshhIX+owHHD+8Bd5z9CUViKI5WEMEiCGFCnTcNII/pSIzUW48uNy3yyiWhp5M8D2izzyCyCf/sjcXfPEAGWOmXDWcfS6no+QS"
+        "VRFProof": "lxxVhQ7STxKiKeqS6B+LsIKIO08xHvhRbQlyTY4QV+A6r3z0ywbBYV4PoTy5TnKnELlo9wRzz2OsTclsOaWqirqx99Htvz72jJmyo5HUqhNJ6oAG3bUGVDwp/sgM7UTt"
       },
-      "Parents": [
+      "ElectionProof": {
+        "WinCount": 1,
+        "VRFProof": "qVEhBj5J4tAOp0VIouyxk1uGbzSjaJjfsGrgW5rD+Irq+aiNPvd0nzOH+5QVlhcYEA0SXH520W6WSEo6oTjajOafbL7DlICvj6eZFd+2aM2DHeLMEJsYi1WXoWOBafYv"
+      },
+      "BeaconEntries": [
         {
-          "/": "bafy2bzaceclpschhidxiarcwzaxycracy64ie65tukzljzhrll3gbwbilwvbs"
-        },
-        {
-          "/": "bafy2bzacedomcdl5qrc4zmlmumlsc5vyetkhbuk2ym6qkwoxmz2i7hh3zz54k"
+          "Round": 3,
+          "Data": "fPjsJpa5PpPYfLHVnL6TQ678d01oMTodip/DjF2GAJ0="
         }
       ],
-      "ParentWeight": "10751",
+      "WinPoStProof": [
+        {
+          "PoStProof": 0,
+          "ProofBytes": "dmFsaWQgcHJvb2Y="
+        }
+      ],
+      "Parents": [
+        {
+          "/": "bafy2bzaceb37o6pacdckuqkm6uxyhmrsz5rc7knmm5azthr6yagwuuxte2ye2"
+        },
+        {
+          "/": "bafy2bzacedz3z6yc345weqkzfipzfwfcs5w6eslk34x34vffil2uhvgouybzs"
+        }
+      ],
+      "ParentWeight": "14592",
       "Height": 3,
       "ParentStateRoot": {
-        "/": "bafy2bzacedjfgs3fw3scgo6okrfqhq6uiz7fawxu6r3yfiq5whxxvs67di6yc"
+        "/": "bafy2bzaceaq45c3kl6wor225jqclan3jg2l7rswwf7duhw57w5xuldlvpf6es"
       },
       "ParentMessageReceipts": {
-        "/": "bafy2bzacecudhp7svmtn6xeolrhznguq625rj3lfnnyrjsojxkenwyqth26fk"
+        "/": "bafy2bzaceaceftv542fqfbytphl6bdltbbf5rppjxllmigwxabm6koac4fsec"
       },
       "Messages": {
-        "/": "bafy2bzacecjuhhvbhi3vobidzdlzlyxmudabte6fn35dgyuogdliq2c4elkgu"
+        "/": "bafy2bzacedo7xuwwtbnqiyyhnpbj4qacfiok2wu4mzrt5btu3k6idloqov37k"
       },
       "BLSAggregate": {
         "Type": 2,
         "Data": "wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
       },
-      "Timestamp": 100075,
+      "Timestamp": 1596740725,
       "BlockSig": {
         "Type": 2,
-        "Data": "idOzaQChSZiRuvPuhHC0uZWBtUKCBnW3fqf4ZRUreaJ1pn6AzFPqZ1+NzI2GlBa6CnYwmCl2gEVOSqzTMxMcmyzbzcPo3Wk6GY31IfN21xvAq9dDkJjj3OCUnX/SUVO5"
+        "Data": "pkfqC1isvjVY1/SkdW637OIHbUKtXNBbLw6IQbhB8sH7hLeioRgV9PUO+tAKNY8zC1xn58834zR5UMBGLKC2j8MLX+flgoM9yrGaYTaM2itDtxenNGTdbor7e1nSBw75"
       },
-      "ForkSignaling": 0
+      "ForkSignaling": 0,
+      "ParentBaseFee": "74867187"
     },
-    "cbor_hex": "8f4300e8078158608049e4ee269b28b8757af99d0d7c5ccb5f67d7a4314d616c861217fa8c071c3fbc05de73f4251588a2395843048821850a74dc34823fa52233516e3cb8dcb7cb2896869e4cf03da2cf3c82c827ffb237177cf1001963a65c359c7d2ea7a3e412f6808082d82a5827000171a0e4022096f908e740ee804456c82f814402c7b8827bb3a2b2b4e4f15af660d8285daa19d82a5827000171a0e40220dcc10d7d8445ccb16ca3172176b824d470d15ac33d0559d766748f9cfbce7bc5430029ff03d82a5827000171a0e40220d2534b65b6e4233bce544b03c3d4467e505af4f47782a21db1ef7acbdf1a3d81d82a5827000171a0e40220a833bff2ab26df5c8e5c4f969a90f6bb14ed656b7114c9c9ba88db62133ebc55d82a5827000171a0e4022093439ea13a37570503c8d795e2eca0c01993c56efa33628e30d688685c22d46a586102c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001a000186eb58610289d3b36900a1499891baf3ee8470b4b99581b542820675b77ea7f865152b79a275a67e80cc53ea675f8dcc8d869416ba0a763098297680454e4aacd333131c9b2cdbcdc3e8dd693a198df521f376d71bc0abd7439098e3dce0949d7fd25153b900",
-    "cid": "bafy2bzaceciqh2n443lwjmpcwna2aadahmptibankufpiwerze2ccp2segqpa"
+    "cbor_hex": "904300e907815860971c55850ed24f12a229ea92e81f8bb082883b4f311ef8516d09724d8e1057e03aaf7cf4cb06c1615e0fa13cb94e72a710b968f70473cf63ac4dc96c39a5aa8abab1f7d1edbf3ef68c99b2a391d4aa1349ea8006ddb506543c29fec80ced44ed82015860a95121063e49e2d00ea74548a2ecb1935b866f34a36898dfb06ae05b9ac3f88aeaf9a88d3ef7749f3387fb9415961718100d125c7e76d16e96484a3aa138da8ce69f6cbec39480af8fa79915dfb668cd831de2cc109b188b5597a1638169f62f81820358207cf8ec2696b93e93d87cb1d59cbe9343aefc774d68313a1d8a9fc38c5d86009d8182004b76616c69642070726f6f6682d82a5827000171a0e4022077f779e010c4aa414cf52f83b232cf622fa9ac6741999e3ec00d6a52f326b04dd82a5827000171a0e40220f3bcfb02df3b6241592a1f92d8a2976de2496adf2fbe54a542f543d4cea603994300390003d82a5827000171a0e4022021ce8b6a5face8eb5d4c04b037693697f8cad62fc743dbbfb76f458d75797c49d82a5827000171a0e402200442cebde68b02871379d7e08d73084bd8bde9bad6c41ad70059e53802e16441d82a5827000171a0e40220ddfbd2d6985b0463076bc29e40022a1cad5a9c66633e8674dabc81add07577f5586102c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001a5f2c5475586102a647ea0b58acbe3558d7f4a4756eb7ece2076d42ad5cd05b2f0e8841b841f2c1fb84b7a2a11815f4f50efad00a358f330b5c67e7cf37e3347950c0462ca0b68fc30b5fe7e582833dcab19a61368cda2b43b717a73464dd6e8afb7b59d2070ef9004500047661f3",
+    "cid": "bafy2bzaceacbzadbqylr2a67emzyykqshu5lhoikjfiitw24yq72cntmwpriu"
   },
   {
     "block": {
       "Miner": "t01000",
       "Ticket": {
-        "VRFProof": "kTEYt/ZquHUsXR8kTyW+eZ+s2n76Q9n47nFCgOYOIuY3zr8n2VCcWHptpHMgaKvrF8S3QlcULVxZEIyCpR7DgK7nNYVCoYeZ0+ce1jqKoeJdINwXT4OGXvFY48ErNMY1"
+        "VRFProof": "okj7pA7BvjdvYVUt3Bs8WkMGaRjcOphjJAZvZ40b37uFQeF3n3NU/c+0OnciKJE3BV61M8Oyw9sE523I70VGhZeC+9Bwnsq5WUHUfKKxAyjlA1c3OBveM5pJykZyidK1"
       },
-      "Parents": [
+      "ElectionProof": {
+        "WinCount": 1,
+        "VRFProof": "t3Pq1seWQwZ6e+35WbH1A8QTIx9eM+vND7vBXEm5WwjzsfgvsEEjuxzYc7XxpSRkCb/HF+KM1ZVa/7HHlpNXaIYTRfkoGBeZX0424WRQ9pXkHqr8HaUsOD8l/+JFpuQR"
+      },
+      "BeaconEntries": [
         {
-          "/": "bafy2bzaceacblov5axltmebdbogwzt2xnttlsiv4oldmrtytddyidv54grn6c"
-        },
-        {
-          "/": "bafy2bzacebgu23bc2nywena4m63il6zkbhk752ua4qhcrmysqek4yw5worbus"
+          "Round": 4,
+          "Data": "omDKrOTz62Ty0LJSDrIHIf3xB2q4RDmBRvinI26diSI="
         }
       ],
-      "ParentWeight": "14437",
+      "WinPoStProof": [
+        {
+          "PoStProof": 0,
+          "ProofBytes": "dmFsaWQgcHJvb2Y="
+        }
+      ],
+      "Parents": [
+        {
+          "/": "bafy2bzaceacbzadbqylr2a67emzyykqshu5lhoikjfiitw24yq72cntmwpriu"
+        }
+      ],
+      "ParentWeight": "18816",
       "Height": 4,
       "ParentStateRoot": {
-        "/": "bafy2bzacec73blqtchqvkixqhmk7ff6kxvqumr5kgi6mdxhqx2nimfyr4jfhy"
+        "/": "bafy2bzacebldfnhgp3yadg2qp5tvdeilrgjf2exlkdicumz3mgz3dsektcz6i"
       },
       "ParentMessageReceipts": {
-        "/": "bafy2bzacealhb77fyvcojou2hixtamim6hm2whxsjsp633lbbd7aeqenkxpie"
+        "/": "bafy2bzacedey4to7orvwx2hnbfgebwjlkjosrleqs2nfppywtkb4mxfttg5l6"
       },
       "Messages": {
-        "/": "bafy2bzacebbqvsr2r3urgckmxeh3tdicj3jmpafxp4owddpd3t4wl2hnycouy"
+        "/": "bafy2bzaceayh7jz6prfd245kpi4vqdagaqzggs4gbhyfuzlpgip55wwkaq6y2"
       },
       "BLSAggregate": {
         "Type": 2,
         "Data": "wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
       },
-      "Timestamp": 100100,
+      "Timestamp": 1596740755,
       "BlockSig": {
         "Type": 2,
-        "Data": "mPI9h7jWDM41Uj9bj+9nA2y77x11yoRPwo9ve7ipMvpCwRA/6R7vVi7vmQ1w5J4yFB7XQj2kY5oALoFDMXi/lOZE9mxjmhDcUexQV299ncS3Iu86xPvuQqxKuG5aUvMT"
+        "Data": "kCe1/33PNnpC/Us+gQlZlEHaXOoB0o4mnAbL3O+rs6L4+YkSKQek82t1enbr0KZUEzPDQpl00EY7dLueRDP7zY9ia+tP1RsTjN4PBTzlrMyLd1pwC0m/ROsA30u/v4Sk"
       },
-      "ForkSignaling": 0
+      "ForkSignaling": 0,
+      "ParentBaseFee": "69252147"
     },
-    "cbor_hex": "8f4300e807815860913118b7f66ab8752c5d1f244f25be799facda7efa43d9f8ee714280e60e22e637cebf27d9509c587a6da4732068abeb17c4b74257142d5c59108c82a51ec380aee7358542a18799d3e71ed63a8aa1e25d20dc174f83865ef158e3c12b34c635f6808082d82a5827000171a0e402200415babd05d73610230b8d6ccf576ce6b922bc72c6c8cf1318f081d7bc345be1d82a5827000171a0e402204d4d6c22d37162341c67b685fb2a09d5feea80e40e28b3128115cc5bb67443494300386504d82a5827000171a0e40220bfb0ae1311e15522f03b15f297cabd614647aa323cc1dcf0be9a861711e24a7cd82a5827000171a0e402201670ffe5c544e4ba9a3a2f30310cf1d9ab1ef24c9feded6108fe02408d55de82d82a5827000171a0e40220430aca3a8ee913094cb90fb98d024ed2c780b77f1d618de3dcf965e8edc09d4c586102c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001a0001870458610298f23d87b8d60cce35523f5b8fef67036cbbef1d75ca844fc28f6f7bb8a932fa42c1103fe91eef562eef990d70e49e32141ed7423da4639a002e81433178bf94e644f66c639a10dc51ec50576f7d9dc4b722ef3ac4fbee42ac4ab86e5a52f31300",
-    "cid": "bafy2bzacebt5iuz5fqcvv3lvltp6jfonoksnfszm4ldfufxuap2tvnlrtcqy4"
+    "cbor_hex": "904300e807815860a248fba40ec1be376f61552ddc1b3c5a43066918dc3a986324066f678d1bdfbb8541e1779f7354fdcfb43a7722289137055eb533c3b2c3db04e76dc8ef4546859782fbd0709ecab95941d47ca2b10328e5035737381bde339a49ca467289d2b582015860b773ead6c79643067a7bedf959b1f503c413231f5e33ebcd0fbbc15c49b95b08f3b1f82fb04123bb1cd873b5f1a5246409bfc717e28cd5955affb1c796935768861345f9281817995f4e36e16450f695e41eaafc1da52c383f25ffe245a6e4118182045820a260caace4f3eb64f2d0b2520eb20721fdf1076ab844398146f8a7236e9d89228182004b76616c69642070726f6f6681d82a5827000171a0e40220041c806186171d03df23338c2a123d3ab3b90a495089db5cc43fa1366cb3e28a4300498004d82a5827000171a0e402205632b4e67ef0019b507f6751910b89925d12eb50d02a333b61b3b1c88a98b3e4d82a5827000171a0e40220c98e4ddf746b6be8ed094c40d92b525d28ac90969a57bf169a83c65cb399babfd82a5827000171a0e40220307fa73e7c4a3d73aa7a39580c060432634b8609f05a656f321fdedaca043d8d586102c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001a5f2c54935861029027b5ff7dcf367a42fd4b3e8109599441da5cea01d28e269c06cbdcefabb3a2f8f989122907a4f36b757a76ebd0a6541333c3429974d0463b74bb9e4433fbcd8f626beb4fd51b138cde0f053ce5accc8b775a700b49bf44eb00df4bbfbf84a40045000420b433",
+    "cid": "bafy2bzacebquuzpcw47pfzzaskfxfkrzu3whhgnnbsotpck5szfjjy2b4ssda"
   },
   {
     "block": {
       "Miner": "t01000",
       "Ticket": {
-        "VRFProof": "haG/qPeztxhCz+dyChgBoGAvUN3WXV5QYZF86IIcxjtxZdGQiLUIkAefEPqRFLBQA61dPpf/bK40YU2QBEGncneAl9FTwUf5QdQCoBgRlJXQ5qSOk0uQiszsuLZyj14t"
+        "VRFProof": "ooeb00ApGpZNXtK9aptJbQMb3NjsUr6uvd9uvIXNraom7cTDSaKURChVYWH/LnWnGcemQhqpU4lIw37gAXsmxrsvt1VNc4fCaIZwURJptRPudlOcBLkWstbok8CwJk4R"
       },
-      "Parents": [
+      "ElectionProof": {
+        "WinCount": 5,
+        "VRFProof": "kU/E7JRl9z+v5HctOUyJuoyAP8dYVMr3AKK53F27+zAOdPH/UvnNgzgpnZGrD4qgAlIjq+qKx9PJ1LhSBOatRcz8TJmHFUBsOy8jecqPPxf9T9nHgjllp+XikqGiI/pU"
+      },
+      "BeaconEntries": [
         {
-          "/": "bafy2bzaceaaaojy4z4yn3rqodznemaul3rgddocgb4zfx4xh3qhke2kdpssjo"
-        },
-        {
-          "/": "bafy2bzacedeinl3sa2l6jn2pkzxsprchg6ptexoa3a7nw6jtipekrgjswvxdk"
+          "Round": 5,
+          "Data": "OkLmbkbddjO1fR+SF4ChrHFea5PBnuUqtxQXjrOp9nM="
         }
       ],
-      "ParentWeight": "18123",
+      "WinPoStProof": [
+        {
+          "PoStProof": 0,
+          "ProofBytes": "dmFsaWQgcHJvb2Y="
+        }
+      ],
+      "Parents": [
+        {
+          "/": "bafy2bzacebyzzyjcj5jhvzgcvkezj6iggxk6qlleoomygp7fbjpx3kpr2wiqo"
+        },
+        {
+          "/": "bafy2bzacebquuzpcw47pfzzaskfxfkrzu3whhgnnbsotpck5szfjjy2b4ssda"
+        }
+      ],
+      "ParentWeight": "23808",
       "Height": 5,
       "ParentStateRoot": {
-        "/": "bafy2bzacecpqhczshnbpf32ejrmm5ruh3bcl2ktkbto2j3omluctuklbgcsey"
+        "/": "bafy2bzacec4yjrsq42zdfgz444w6uqplzzmcerhz27r7cc5oeusymxejlu4s2"
       },
       "ParentMessageReceipts": {
-        "/": "bafy2bzacealhb77fyvcojou2hixtamim6hm2whxsjsp633lbbd7aeqenkxpie"
+        "/": "bafy2bzacedey4to7orvwx2hnbfgebwjlkjosrleqs2nfppywtkb4mxfttg5l6"
       },
       "Messages": {
-        "/": "bafy2bzaceafcdqjwrpz3uwhn532crplao4zgjn4dif2siptleefxoemf6mblc"
+        "/": "bafy2bzacebtjc4a24cb4lzvlem7xqy3yfmvnvxbqokb25dbfnmcgjrn6trjve"
       },
       "BLSAggregate": {
         "Type": 2,
         "Data": "wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
       },
-      "Timestamp": 100125,
+      "Timestamp": 1596740785,
       "BlockSig": {
         "Type": 2,
-        "Data": "mUOCo4AHRIXCd6KeYeKpX4XfRVYu/06k0jlL+i7tmjKmOxNilv0/SC8vQZ2xEHNbBjhJjoDU/9G/2wD9HmWlTZd0TKHQ5VfSMG84BxIYla9+VbL0QNc+RYYe+IvjDVho"
+        "Data": "t4JEsjyi+/U6UtlV0kWOECOZI7pWQ+FnHBbOF5tzovwVJfNC+go7QJvzpwr8luXPBNYQw6SIvJqVPHCC7LT+jvLl5WxycLt+N2XFLMeq0gZjME+IbXTZX/bMsjtmpb1+"
       },
-      "ForkSignaling": 0
+      "ForkSignaling": 0,
+      "ParentBaseFee": "64058235"
     },
-    "cbor_hex": "8f4300e80781586085a1bfa8f7b3b71842cfe7720a1801a0602f50ddd65d5e5061917ce8821cc63b7165d19088b50890079f10fa9114b05003ad5d3e97ff6cae34614d900441a772778097d153c147f941d402a018119495d0e6a48e934b908accecb8b6728f5e2df6808082d82a5827000171a0e402200007271ccf30ddc60e1e5a46028bdc4c31b8460f325bf2e7dc0ea269437ca497d82a5827000171a0e40220c886af720697e4b74f566f27c447379f325dc0d83edb793343c8a89932b56e35430046cb05d82a5827000171a0e402209f038b323b42f2ef444c58cec687d844bd2a6a0cdda4edcc5d053a296130a44cd82a5827000171a0e402201670ffe5c544e4ba9a3a2f30310cf1d9ab1ef24c9feded6108fe02408d55de82d82a5827000171a0e402200a21c1368bf3ba58edeef428bd60773264b7834175243e6b210b771185f302b1586102c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001a0001871d586102994382a380074485c277a29e61e2a95f85df45562eff4ea4d2394bfa2eed9a32a63b136296fd3f482f2f419db110735b0638498e80d4ffd1bfdb00fd1e65a54d97744ca1d0e557d2306f3807121895af7e55b2f440d73e45861ef88be30d586800",
-    "cid": "bafy2bzaceaqnjv5rsvrbznmvcqacpfhvvpgrnfhjjdcvkv6ymrra5qx2csl7m"
+    "cbor_hex": "904300e807815860a2879bd340291a964d5ed2bd6a9b496d031bdcd8ec52beaebddf6ebc85cdadaa26edc4c349a2944428556161ff2e75a719c7a6421aa9538948c37ee0017b26c6bb2fb7554d7387c2688670511269b513ee76539c04b916b2d6e893c0b0264e1182055860914fc4ec9465f73fafe4772d394c89ba8c803fc75854caf700a2b9dc5dbbfb300e74f1ff52f9cd8338299d91ab0f8aa0025223abea8ac7d3c9d4b85204e6ad45ccfc4c998715406c3b2f2379ca8f3f17fd4fd9c7823965a7e5e292a1a223fa5481820558203a42e66e46dd7633b57d1f921780a1ac715e6b93c19ee52ab714178eb3a9f6738182004b76616c69642070726f6f6682d82a5827000171a0e40220719ce1224f527ae4c2aa8994f90635d5e82d647399833fe50a5f7da9f1d59107d82a5827000171a0e40220614a65e2b73ef2e720928b72aa39a6ec7399ad0c9d37895d964a94e341e4a43043005d0005d82a5827000171a0e40220b984c650e6b2329b3ce72dea41ebce582244f9d7e3f10bae2525865c895d392dd82a5827000171a0e40220c98e4ddf746b6be8ed094c40d92b525d28ac90969a57bf169a83c65cb399babfd82a5827000171a0e402206691701ae083c5e6ab233f7863782b2adadc307283ae8c256b0464c5be9c5352586102c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001a5f2c54b1586102b78244b23ca2fbf53a52d955d2458e10239923ba5643e1671c16ce179b73a2fc1525f342fa0a3b409bf3a70afc96e5cf04d610c3a488bc9a953c7082ecb4fe8ef2e5e56c7270bb7e3765c52cc7aad20663304f886d74d95ff6ccb23b66a5bd7e00450003d1737b",
+    "cid": "bafy2bzacedionefhjg6as55vuwqungqnqloltiu5sardkh3xywvgwkbdzzugu"
   }
 ]
